@@ -18,7 +18,7 @@ export default function Layout() {
     Rubik_700Bold,
   });
 
-  if (fontsLoaded) return <Loading />;
+  if (!fontsLoaded) return <Loading />;
 
   return (
     <Stack
