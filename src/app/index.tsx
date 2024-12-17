@@ -4,7 +4,7 @@ import {
   IconMapPin,
   IconQrcode,
   IconTicket,
-  IconPlusEqual,
+  IconArrowRight,
 } from "@tabler/icons-react-native";
 
 import Steps from "@/components/steps";
@@ -41,7 +41,7 @@ export default function Index() {
 
       <Button onPress={() => router.navigate("/home")}>
         <Button.Title>Começar</Button.Title>
-        <Button.Icon icon={IconPlusEqual} />
+        <Button.Icon icon={IconArrowRight} />
       </Button>
     </View>
   );
